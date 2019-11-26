@@ -1,8 +1,8 @@
 body {
-  background-image: url("background.gif");
+  /* background-image: url("background.gif");
   background-repeat: no-repeat;
-  background-size: cover;
-
+  background-size: cover; */
+  background-color: grey;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -12,5 +12,6 @@ body {
   align-items: center;
 }
 canvas {
+  border: 10px solid white;
   position: absolute;
 }
