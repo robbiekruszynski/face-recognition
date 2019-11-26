@@ -4,12 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Emotional Tracking</title>
     <script defer src="face-api.min.js"></script>
     <script defer src="app.js"></script>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <video id="video" width="720" height="560" autoplay muted></video>
+    <div>
+      <video id="video" width="720" height="560" autoplay muted></video>
+    </div>
+    <div>
+      <form>
+        <select name="cars" size="3">
+          <option value="volvo">Tops</option>
+          <option value="saab">Bottoms</option>
+          <option value="fiat">Accesories</option>
+          <option value="audi">Shoes</option>
+        </select>
+        <br /><br />
+        <input type="submit" />
+      </form>
+    </div>
   </body>
 </html>
